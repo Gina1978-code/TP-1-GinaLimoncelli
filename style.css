@@ -1,0 +1,166 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/*Fuentes*/
+
+.courier-prime-regular {
+    font-family: "Courier Prime", monospace;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .courier-prime-bold {
+    font-family: "Courier Prime", monospace;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .courier-prime-regular-italic {
+    font-family: "Courier Prime", monospace;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .courier-prime-bold-italic {
+    font-family: "Courier Prime", monospace;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+  .index {
+    background: #240000;
+    background: -webkit-linear-gradient(90deg, rgba(36, 0, 0, 1) 0%, rgba(82, 73, 73, 1) 35%, rgba(102, 107, 105, 1) 100%);
+    background: -moz-linear-gradient(90deg, rgba(36, 0, 0, 1) 0%, rgba(82, 73, 73, 1) 35%, rgba(102, 107, 105, 1) 100%);
+    background: linear-gradient(90deg, rgba(36, 0, 0, 1) 0%, rgba(82, 73, 73, 1) 35%, rgba(102, 107, 105, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#240000", endColorstr="#666B69", GradientType=1);
+  }
+
+
+/*Navbar*/
+.bg-body-tertiary{
+    --bs-bg-opacity: 1;
+    background-color: #fff !important; 
+  }
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 5px;
+  }
+
+
+
+/*Home*/
+  .Home-container{
+    background-image: url(assets/img/Home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: 100vw;
+    color: white;
+    font-size: 18px;  
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+/*Cards*/
+
+.Card-container{
+  display: flex;
+  justify-content: space-between;
+  }
+
+.index main h4{
+  color: white;
+  }
+
+ .card {
+  width: 300px;
+  border: 0px solid #ccc;
+  padding: 16px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+ }
+
+ .card-image {
+  width: 100%;;
+ }
+
+ .card-title {
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+ }
+
+ .card-text {
+  font-size: 1em;
+  line-height: 1.4;
+  color: black;
+ }
+
+ .card-footer {
+  text-align: right;
+ }
+
+ .card-button {
+  background-color: #007bff;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+ }
+
+ .card-button:hover {
+  background-color: #0056b3;
+ }
+
+
+
+/*Galeria*/
+.index section3{
+  color: white;
+  font-size: 18px:
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 10px auto;
+    background-color: white;
+  }
+
+  .gallery-item img{
+    width: 180px;
+    height: auto;
+    margin: 10px;
+    object-fit: cover;
+  }
+
+/*Formulario*/ 
+
+.index section4{
+  color: white;
+  font-size: 18px:
+}
+  
+form {
+  width: 40vw;
+  margin: 40px auto;
+}
+
+ /*Footer*/ 
+
+  .index footer p{
+    display: flex;
+    heigh: 50px;
+    justify-content: center;
+    color: white;
+    font-size: 15px;
+  }
+         
