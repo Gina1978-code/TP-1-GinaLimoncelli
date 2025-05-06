@@ -45,12 +45,14 @@
   }
 
 .navbar {
-    position: fixed;
-    top: 0;
+
     width: 100%;
-    padding: 5px;
+    padding: 0px;
   }
 
+.index main{
+  padding-top: 80px;
+}
 
 
 /*Home*/
@@ -59,12 +61,24 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 90vh;
-    width: 100vw;
+    width: 97vw;
     color: white;
     font-size: 18px;  
     display:flex;
     flex-direction: column;
     justify-content: center;
+  }
+
+  .fade-in{
+    animation:fadeIn 4s ease-in;
+  }
+
+  @keyframes fadeIn {
+  from {
+   opacity:0;
+  }
+  to {
+   opacity:1; }
   }
 
 /*Cards*/
@@ -74,8 +88,9 @@
   justify-content: space-between;
   }
 
-.index main h4{
+.index main h4,h1,h3{
   color: white;
+  font-size: 24px;
   }
 
  .card {
@@ -87,12 +102,13 @@
  }
 
  .card-image {
-  width: 100%;;
+  width: 100%;
  }
-
+  
  .card-title {
   font-size: 1.5em;
   margin-bottom: 0.5em;
+  padding-bottom: 0px;
  }
 
  .card-text {
@@ -122,9 +138,10 @@
 
 
 /*Galeria*/
-.index section3{
+.index section{
   color: white;
-  font-size: 18px:
+  font-size: 18px;
+
 }
 
 .gallery{
@@ -144,10 +161,10 @@
 
 /*Formulario*/ 
 
-.index section4{
+.index section{
   color: white;
-  font-size: 18px:
-}
+  font-size: 18px;
+    } 
   
 form {
   width: 40vw;
@@ -162,5 +179,14 @@ form {
     justify-content: center;
     color: white;
     font-size: 15px;
+    padding-bottom: 0px;
   }
          
+ p,h1,h2,h3,h4,h5,h6{
+    padding-bottom: 10px;
+  }
+
+ section {
+    padding-bottom: 50px;
+    scroll-margin-top: 80px;
+  }
